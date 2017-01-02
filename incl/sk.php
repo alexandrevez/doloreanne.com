@@ -1,5 +1,5 @@
 <?php
-const _SONGKICK_API_KEY = "7IvGwiiSJc1BjNbT";
+const _SONGKICK_API_KEY = "HIDDEN";
 const _SONGKICK_DOLO_ID = "8317503";
 const _MAX_ARCHIVE = 16;
 

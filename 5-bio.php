@@ -15,7 +15,7 @@
 		</p>
 
 		<p class="bio">
- 			Leur simple Émilie, sorti en février 2015, leur a permis de faire leur première entrée à la radio commerciale. Armés de leur musique à la fois simple et réfléchie et de leur motivation amenée par le succès de leur simple, les membres de Doloréanne sortent leur premier album (septembre 2016) : Danse Encore.
+			Leur simple Émilie, sorti en février 2015, leur a permis de faire leur première entrée à la radio commerciale. Armés de leur musique à la fois simple et réfléchie et de leur motivation amenée par le succès de leur simple, les membres de Doloréanne sortent leur premier album (septembre 2016) : Danse Encore.
 		</p>
 
 		<p style="text-align: center; margin-top: 5em;">

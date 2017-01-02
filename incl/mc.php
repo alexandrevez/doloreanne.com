@@ -1,5 +1,5 @@
 <?php
-const _MAILCHIMP_API_KEY = "35eaac07f5edc686629c4efed75e9d53-us10";
+const _MAILCHIMP_API_KEY = "HIDDEN";
 const _MAILCHIMP_LIST_ID = "9b37d67a64";
 
 class MailChimp

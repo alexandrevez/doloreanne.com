@@ -18,7 +18,7 @@
 			<img src="/img/Presse.png" alt="Live1" />
 		</div>
 	</a>
-	
+
 	<a href="/img/Presse-NB.jpg" target="_BLANK">
 		<div class="image-container">
 			<img src="/img/Presse-NB.jpg" alt="Live1" />

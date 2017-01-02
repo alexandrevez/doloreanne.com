@@ -4,21 +4,21 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.doloreanne.com/">
-    <meta property="og:title" content="Doloréanne">
-    <meta property="og:description" content="Nouvel album : Danse encore">
-    <meta property="og:site_name" content="Doloréanne - Danse encore">
-    <meta property="og:image" content="http://doloreanne.com/img/fb-cover.png">
-    <meta itemscope="" itemtype="website">
-    <meta itemprop="description" content="Nouvel album : Danse encore">
-    <meta itemprop="image" content="http://doloreanne.com/img/fb-cover.png">
+	<meta property="og:url" content="http://www.doloreanne.com/">
+	<meta property="og:title" content="Doloréanne">
+	<meta property="og:description" content="Nouvel album : Danse encore">
+	<meta property="og:site_name" content="Doloréanne - Danse encore">
+	<meta property="og:image" content="http://doloreanne.com/img/fb-cover.png">
+	<meta itemscope="" itemtype="website">
+	<meta itemprop="description" content="Nouvel album : Danse encore">
+	<meta itemprop="image" content="http://doloreanne.com/img/fb-cover.png">
 	<link rel="icon" type="image/png" href="img/icon.png" />
 
 	<title>Doloréanne - Danse encore</title>
 	<link href="./css/screen.css" media="screen" rel="stylesheet" type="text/css">
 
 	<!--[if lt IE 9]>
-	    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
