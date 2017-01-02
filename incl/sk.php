@@ -39,36 +39,36 @@ class SongKick
 		"déc"
 	);
 
-    public function next()
-    {
-        $url = "http://api.songkick.com/api/3.0/artists/"._SONGKICK_DOLO_ID."/calendar.json?apikey="._SONGKICK_API_KEY;
-        if (function_exists('curl_init') && function_exists('curl_setopt'))
+	public function next()
+	{
+		$url = "http://api.songkick.com/api/3.0/artists/"._SONGKICK_DOLO_ID."/calendar.json?apikey="._SONGKICK_API_KEY;
+		if (function_exists('curl_init') && function_exists('curl_setopt'))
 		{
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
-            curl_setopt($ch, CURLOPT_USERAGENT, 'doloreanne.com/1.0');
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            $result = curl_exec($ch);
-            curl_close($ch);
-        }
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+			curl_setopt($ch, CURLOPT_USERAGENT, 'doloreanne.com/1.0');
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+			curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+			$result = curl_exec($ch);
+			curl_close($ch);
+		}
 		else
 		{
-	        $result = file_get_contents($url, null, stream_context_create(array(
-	            'http' => array(
-	                'protocol_version' => 1.1,
-	                'user_agent'       => 'doloreanne.com/1.0',
-	                'method'           => 'GET',
-	                'header'           => "Content-type: application/json\r\n".
-	                                      "Connection: close\r\n",
-	            ),
-	        )));
-	    }
+			$result = file_get_contents($url, null, stream_context_create(array(
+				'http' => array(
+					'protocol_version' => 1.1,
+					'user_agent'       => 'doloreanne.com/1.0',
+					'method'           => 'GET',
+					'header'           => "Content-type: application/json\r\n".
+										  "Connection: close\r\n",
+				),
+			)));
+		}
 
 		$concerts = json_decode($result);
-        if ($result)
+		if ($result)
 		{
 			$formatted_concerts = array();
 
@@ -82,7 +82,7 @@ class SongKick
 		}
 		ksort($formatted_concerts);
 		return $formatted_concerts;
-    }
+	}
 
 	private function _processConcert($event)
 	{
