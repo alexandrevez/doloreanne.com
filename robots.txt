@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /dossierPresse/
+Disallow: /incl/
+Disallow: /p/
+Disallow: /media/

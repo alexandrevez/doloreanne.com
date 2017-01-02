@@ -1,0 +1,112 @@
+html {
+	padding: 0;
+	margin: 0;
+	width: 8.5in;
+}
+body {
+	padding: 0;
+	margin: 0;
+	width: 8.5in;
+	font-family: "Open Sans", "Helvetica Neue",Arial,sans-serif;
+	color: #9a9a9a;
+}
+section {
+	width: 8.5in;
+	border: 0px solid #000;
+	position: relative;
+}
+section.title {
+	height: 11in;
+}
+section.title img.cover {
+	width: 8.5in;
+	height: 4.462in;
+	margin-top: 1.25in;
+}
+section.title h1 {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: .25in 0 0 0;
+	padding: 0;
+	font-size: 36px;
+}
+section.title h2 {
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+.contact {
+	padding: 0 1in 0 1in;
+	width: 6.5in;
+	position: absolute;
+	bottom: 1in;
+}
+.contact .container {
+	padding: 0;
+	float: left;
+}
+.contact .container.spectacles {
+	margin-left: 0.468in;
+}
+.contact .container.radio {
+	margin-left: 2in;
+}
+.contact .container h3 {
+	color: #bf994b;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.contact .container span {
+	display: block;
+}
+.thumb {
+	position: absolute;
+	bottom: 0.25in;
+	right: 0;
+	text-align:right;
+	padding: 0.075in;
+	text-align: center;
+	background-color:#fff;
+	
+	border-radius: 4px;
+}
+.thumb.brbrtfo {
+	width: 174px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-image: url('../img/logos/logo-brbr.png');
+}
+.thumb.brbrtfo div.date {
+	position: absolute;
+	bottom: 10px;
+	left: 52.448px;
+}
+.thumb.ecoutedoncca {
+	width: 272px;
+	height: 90px;
+	background-repeat: no-repeat;
+	background-image: url('../img/logos/logo-ecoutedoncca.png');
+}
+.thumb.ecoutedoncca div.date {
+	position: absolute;
+	bottom: 22px;
+	left: 130px;
+}
+.thumb.intercomulaval {
+	width: 174px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-image: url('../img/logos/logo-intercomulaval.png');
+}
+.thumb.intercomulaval div.date {
+	position: absolute;
+	bottom: 10px;
+	left: 47px;
+}
