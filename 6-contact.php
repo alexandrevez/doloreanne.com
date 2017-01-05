@@ -2,13 +2,13 @@
 	<h2>Contact</h2>
 
 	<div class="contact-elem">
-		<h3>Gérance et booking</h3>
-		<div>
-			<span class="email">
-				<a href="mailto:michelle@doloreanne.com">Michelle Boucher</a>
-			</span>
-		</div>
-		<div class="phone">(418) 265-2363</div>
+        <h3>Booking</h3>
+        <div>
+            <span class="email">
+                <a href="mailto:pauline@outloud.mu">Pauline Viard</a>
+            </span>
+        </div>
+        <div class="phone">(438) 921-3229</div>
 	</div>
 
 	<div class="contact-elem">
