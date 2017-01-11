@@ -560,6 +560,7 @@ div.banner-container .banner-logo img {
 .section#spectacles .concerts-container .wrapper .row .date-wrapper {
 	width: 44px;
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 .section#spectacles .concerts-container .wrapper .row .date {
 	text-align: left;
