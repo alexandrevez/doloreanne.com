@@ -15,7 +15,7 @@
 		<h3>Relations de presse et promotion radio</h3>
 		<div>
 			<span class="email">
-				<a href="mailto:lamozik@videotron.ca">Jean Lamothe</a>
+				<a href="mailto:lamozik@videotron.ca">Jean Lamothe - lamozik@videotron.ca</a>
 			</span>
 		</div>
 
