@@ -14,6 +14,9 @@ var _MUSIC_PLAYERS = {
 };
 
 var _VIDEO_PLAYERS = {
+	commeuneactricelive: {
+		url: "https://www.youtube.com/embed/i6pjRM4x_lI"
+	},
 	emilie: {
 		url: "https://www.youtube.com/embed/reAvdd7yUWk"
 	}
@@ -28,15 +31,26 @@ function bind()
 	_changeMusicPlayer(default_player, false);
 
 	default_player = Object.keys(_VIDEO_PLAYERS)[0];
-	_changeVideoPlayer(default_player);
+	_changeVideoPlayer(default_player, false);
 }
 function _bindVideoNavigation()
 {
+	$("ul.video-nav li").click(function(e)
+	{
+		var video_id = $(e.target).attr("data-video-id");
+		if (video_id === undefined)
+		{
+			video_id = $(e.target).parent().attr("data-video-id");
+		}
+
+		_changeVideoPlayer(video_id, true);
+	});
+
 	$(".video-container iframe.player").on("load", function(e){
 		_hideVideoLoading();
 	});
 }
-function _changeVideoPlayer(videoID)
+function _changeVideoPlayer(videoID, moveToSectionTop)
 {
 	var player_url = _VIDEO_PLAYERS[videoID].url;
 	var current_player_url = $(".video-container iframe.player").attr("src");
@@ -46,6 +60,11 @@ function _changeVideoPlayer(videoID)
 		_showVideoLoading();
 
 		$(".video-container iframe.player").attr("src", player_url);
+	}
+
+	if (moveToSectionTop)
+	{
+		_gotoSection("videos");
 	}
 }
 function _showVideoLoading()
@@ -107,6 +126,16 @@ function _hideMusicLoading()
 {
 	$(".player iframe.player").css({opacity: 1});
 	$(".player .loading").css({opacity: 0});
+}
+function _gotoSection(id)
+{
+	var offset = 0;
+
+	if ($("#" + id) !== undefined)
+	{
+		offset = $("#" + id)[0].offsetTop - 60;
+	}
+	$('.main-container').animate({scrollTop: offset}, 150);
 }
 $(function() {
 	bind();

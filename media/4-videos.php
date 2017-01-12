@@ -14,6 +14,26 @@
 		<iframe class="player" style="border: 0;" src="" seamless></iframe>
 
 		<?php } ?>
+
 	</div>
 
+	<h3 class="sub">Tous les vidéos</h3>
+	<div class="video-nav-wrapper">
+		<ul class="video-nav">
+			<li id="commeuneactricelive" data-video-id="commeuneactricelive">
+				<img class="cover" src="./img/commeuneactricelive_thumb.jpg" />
+				<div class="overlay-text" data-album-id="danseencore">
+					<img class="play" src="./img/play-button-white.svg"></img>
+					<div class="title">Comme une actrice (Session live)</div>
+				</div>
+			</li>
+			<li id="emilie" data-video-id="emilie">
+				<img class="cover" src="./img/emilie_thumb.jpg" />
+				<div class="overlay-text" data-album-id="danseencore">
+					<img class="play" src="./img/play-button-white.svg"></img>
+					<div class="title">Émilie (Vidéoclip)</div>
+				</div>
+			</li>
+		</ul>
+	</div>
 </div>

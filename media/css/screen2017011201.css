@@ -618,7 +618,15 @@ div.banner-container .banner-logo img {
 	color: #fff;
 	margin-top: -16px;
 }
-
+.section#videos h3.sub {
+	font-family: "Title";
+	font-size: 24px;
+	text-align: center;
+	margin: 3em 0 0 0;
+}
+.section#videos .loading {
+	text-align: center;
+}
 .section#videos .video-container {
 	position: relative;
 	width: 100%;
@@ -632,6 +640,72 @@ div.banner-container .banner-logo img {
     left: 0;
     width: 100%;
     height: 100%;
+}
+.section#videos ul.video-nav {
+	list-style-type: none;
+	padding: 0;
+	margin: 80px 0 0 0;
+	display: inline-block;
+	text-align: center;
+}
+.section#videos ul.video-nav li {
+	width: 30%;
+	margin: 0 5%;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.25);
+	transition: box-shadow 0.3s;
+	cursor: pointer;
+}
+.section#videos ul.video-nav li div.overlay-text {
+	position: absolute;
+	top: 0;
+	right: -2px;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.section#videos ul.video-nav img.cover {
+	width: 100%;
+	transition: all 0.3s;
+	display: block;
+}
+.section#videos ul.video-nav li:hover img.cover {
+	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+	-o-filter: blur(4px);
+	-ms-filter: blur(4px);
+	filter: blur(4px);
+	transform: scale(1.03)
+}
+.section#videos ul.video-nav li:hover div.overlay-mask {
+	opacity: 1;
+}
+.section#videos ul.video-nav li:hover div.overlay-text {
+	opacity: 1;
+}
+.section#videos ul.video-nav .title {
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+}
+.section#videos ul.video-nav img.play {
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.section#videos ul.video-nav div.title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .section#photos {
