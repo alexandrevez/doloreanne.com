@@ -13,15 +13,15 @@
 		</div>
 	</a>
 
-	<a href="/img/Presse.png" target="_BLANK">
+	<a href="/img/Presse.jpg" target="_BLANK">
 		<div class="image-container">
-			<img src="/img/Presse.png" alt="Live1" />
+			<img src="/img/Presse.jpg" alt="Live1" />
 		</div>
 	</a>
 
-	<a href="/img/Presse-NB.jpg" target="_BLANK">
+	<a href="/img/PresseNB.jpg" target="_BLANK">
 		<div class="image-container">
-			<img src="/img/Presse-NB.jpg" alt="Live1" />
+			<img src="/img/PresseNB.jpg" alt="Live1" />
 		</div>
 	</a>
 </div>

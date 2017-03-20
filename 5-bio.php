@@ -3,19 +3,15 @@
 
 	<div class="container">
 		<p class="bio">
-			Ayant vu le jour en fin 2011 dans un sous-sol de maison familiale, Doloréanne est un projet de groupe, une vocation commune.
+			C’est un soir d’automne en 2011, dans un sous-sol de maison familiale, que se retrouvent pour la première fois les membres de Doloréanne. Alexandre Vézina, Frédérique Tremblay-Auger et Émile et Éloi Brassard-Gourdeau – deux frères – travaillent depuis ce temps, entre deux parties de babyfoot, à peaufiner le son et les couleurs de Doloréanne. Alliant des influences folk, pop et rock, ce jeune groupe de Québec écrit des chansons touchantes tournant autour de personnages riches et sentis, et leurs textes sont flanqués par des arrangements où se côtoient la douceur du violon, la richesse des claviers et l’énergie de la guitare électrique.
 		</p>
 
 		<p class="bio">
-			Alexandre Vézina, Frédérique Tremblay-Auger et Émile et Éloi Brassard-Gourdeau  – deux frères –  unissent leurs efforts pour créer un son et un message qui leur sont propres, une musique qui les représente et les unit. Cette volonté transparaît dans leur œuvre; tirant sur des ambiances et des humeurs variées - tantôt pop, tantôt folk, tantôt rock – les chansons de Doloréanne sont ressenties et empreintes d’un désir d’exprimer et de partager avec le public.
+			Suite à la parution d’un premier album court en 2014, Doloréanne lance fin 2016 son premier opus long, Danse Encore. Co-réalisé par Patrice Pruneau et enregistré à cheval entre les Studios Piccolo et le studio maison du groupe, cet album est un portrait vivant de personnages et de relations, un monde où l’auditeur peut autant se perdre que se reconnaître.
 		</p>
 
 		<p class="bio">
-			Après avoir performé en spectacle pendant près de 3 ans, Doloréanne a produit, avec la collaboration d'Alexandre Martel (Mauves, Anatole, etc.), son premier album court, achevé au printemps 2014. Étant partenaire avec le Festival du Film Étudiant de Québec depuis plus de 3 ans, c'est naturellement que le groupe a été invité, en février 2015, à réchauffer la foule d'Alex Nevsky.
-		</p>
-
-		<p class="bio">
-			Leur simple Émilie, sorti en février 2015, leur a permis de faire leur première entrée à la radio commerciale. Armés de leur musique à la fois simple et réfléchie et de leur motivation amenée par le succès de leur simple, les membres de Doloréanne sortent leur premier album (septembre 2016) : Danse Encore.
+			En spectacle, Doloréanne promet une rendition intime et intense des titres de ses deux albums. Les musiciens de cette petite famille ne se lassent pas de jouer ensemble et se plaisent à échanger avec leur public, et cela paraît. Ayant remodelé plusieurs chansons pour la cause, Doloréanne vous fait revisiter son univers à l’aide d’une bonne dose de rock et d’un folk ambiant bien senti.
 		</p>
 
 		<p style="text-align: center; margin-top: 5em;">
