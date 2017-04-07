@@ -9,6 +9,7 @@
 					<li>Première partie d’Alex Nevsky (février 2015)</li>
 					<li>Festival des Montgolfières de St-Jean-sur-Richelieu (août 2015)</li>
 					<li>Spectacle de rodage Danse Encore au Palais Montcalm (septembre 2016)</li>
+					<li>Apéros FEQ (avril 2017)</li>
 				</ul>
 			</div>
 		</div>
