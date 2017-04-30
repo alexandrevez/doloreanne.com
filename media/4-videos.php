@@ -20,11 +20,11 @@
 	<h3 class="sub">Tous les vidéos</h3>
 	<div class="video-nav-wrapper">
 		<ul class="video-nav">
-			<li id="commeuneactricelive" data-video-id="commeuneactricelive">
-				<img class="cover" src="./img/commeuneactricelive_thumb.jpg" />
+			<li id="aperosfeq" data-video-id="aperosfeq">
+				<img class="cover" src="./img/aperosfeq_thumb.jpg" />
 				<div class="overlay-text" data-album-id="danseencore">
-					<img class="play" src="./img/play-button-white.svg"></img>
-					<div class="title">Comme une actrice (Session live)</div>
+					<img class="play" src="./img/play-button.svg"></img>
+					<div class="title" style="color:#3a8881;">Extraits Apéros FEQ (2017-04-05)</div>
 				</div>
 			</li>
 			<li id="emilie" data-video-id="emilie">
