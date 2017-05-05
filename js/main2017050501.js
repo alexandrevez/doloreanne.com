@@ -14,6 +14,9 @@ var _MUSIC_PLAYERS = {
 };
 
 var _VIDEO_PLAYERS = {
+	lascene: {
+		url: "https://www.youtube.com/embed/zm-v0BfuC3M"
+	},
 	emilie: {
 		url: "https://www.youtube.com/embed/reAvdd7yUWk"
 	}
@@ -161,6 +164,17 @@ function _closeMobileMenu()
 }
 function _bindVideoNavigation()
 {
+	$("ul.video-nav li").click(function(e)
+	{
+		var video_id = $(e.target).attr("data-video-id");
+		if (video_id === undefined)
+		{
+			video_id = $(e.target).parent().attr("data-video-id");
+		}
+
+		_changeVideoPlayer(video_id, true);
+	});
+
 	$(".video-container iframe.player").on("load", function(e){
 		_hideVideoLoading();
 	});

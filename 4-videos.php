@@ -16,4 +16,23 @@
 		<?php } ?>
 	</div>
 
+	<h3 class="sub">Tous les vidéos</h3>
+	<div class="video-nav-wrapper">
+		<ul class="video-nav">
+			<li id="aperosfeq" data-video-id="lascene">
+				<img class="cover" src="./img/lascene_thumb.jpg" />
+				<div class="overlay-text" data-album-id="danseencore">
+					<img class="play" src="./img/play-button-white.svg"></img>
+					<div class="title">La scène (Vidéoclip)</div>
+				</div>
+			</li>
+			<li id="emilie" data-video-id="emilie">
+				<img class="cover" src="./img/emilie_thumb.jpg" />
+				<div class="overlay-text" data-album-id="danseencore">
+					<img class="play" src="./img/play-button-white.svg"></img>
+					<div class="title">Émilie (Vidéoclip)</div>
+				</div>
+			</li>
+		</ul>
+	</div>
 </div>

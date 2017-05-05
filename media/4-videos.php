@@ -27,7 +27,14 @@
 					<div class="title" style="color:#3a8881;">Extraits Apéros FEQ (2017-04-05)</div>
 				</div>
 			</li>
-			<li id="emilie" data-video-id="emilie">
+			<li id="aperosfeq" data-video-id="lascene">
+				<img class="cover" src="./img/lascene_thumb.jpg" />
+				<div class="overlay-text" data-album-id="danseencore">
+					<img class="play" src="./img/play-button-white.svg"></img>
+					<div class="title">La scène (Vidéoclip)</div>
+				</div>
+			</li>
+			<li id="emilie" data-video-id="emilie" style="margin-top:50px;">
 				<img class="cover" src="./img/emilie_thumb.jpg" />
 				<div class="overlay-text" data-album-id="danseencore">
 					<img class="play" src="./img/play-button-white.svg"></img>

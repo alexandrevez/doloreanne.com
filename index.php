@@ -15,14 +15,14 @@
 	<link rel="icon" type="image/png" href="img/icon.png" />
 
 	<title>Doloréanne - Danse encore</title>
-	<link href="./css/screen201701101.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="/css/screen2017050501.css" media="screen" rel="stylesheet" type="text/css">
 
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/main2017050501.js"></script>
 	<script type="text/javascript">
 	<?php
 	if ($_SERVER[HTTP_HOST] != "dolo.dev.co")

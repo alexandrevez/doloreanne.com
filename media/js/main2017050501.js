@@ -17,6 +17,9 @@ var _VIDEO_PLAYERS = {
 	aperosfeq: {
 		url: "https://www.youtube.com/embed/J_3eaVkCDrs"
 	},
+	lascene: {
+		url: "https://www.youtube.com/embed/zm-v0BfuC3M"
+	},
 	emilie: {
 		url: "https://www.youtube.com/embed/reAvdd7yUWk"
 	}
