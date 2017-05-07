@@ -7,7 +7,7 @@
 		</p>
 
 		<p class="bio">
-			Suite à la parution d’un premier album court en 2014, Doloréanne lance fin 2016 son premier opus long, Danse Encore. Co-réalisé par Patrice Pruneau et enregistré à cheval entre les Studios Piccolo et le studio maison du groupe, cet album est un portrait vivant de personnages et de relations, un monde où l’auditeur peut autant se perdre que se reconnaître.
+			Suite à la parution d’un premier album court en 2014, Doloréanne lance en mai 2017 son premier opus long, Danse Encore. Co-réalisé par Patrice Pruneau et enregistré à cheval entre les Studios Piccolo et le studio maison du groupe, cet album est un portrait vivant de personnages et de relations, un monde où l’auditeur peut autant se perdre que se reconnaître.
 		</p>
 
 		<p class="bio">
