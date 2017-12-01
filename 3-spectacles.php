@@ -1,37 +1,7 @@
-<?php
-require_once("./incl/sk.php");
-$sk = new SongKick();
-$next_concerts = $sk->next();
-$concert_empty = sizeof($next_concerts) <= 0;
-
-$concert_empty_class = "";
-if ($concert_empty)
-{
-	// watch the space before the class value
-	$concert_empty_class = " empty";
-}
-?>
-<div class="section<?php echo $concert_empty_class; ?>" id="spectacles">
+<div class="section" style="" id="spectacles">
 
 	<h2>Spectacles</h2>
-
-
-	<div class="concerts-container">
-		<div class="wrapper">
-			<?php
-			if ($concert_empty)
-			{
-				echo "<div class='no-concerts'><h3>Il n'y a aucun concert de prévu pour l'instant. D'autres dates s'afficheront bientôt.</h3></div>";
-			}
-			else
-			{
-				foreach ($next_concerts as $concert)
-				{
-					echo SongKick::buildConcertRow($concert);
-				}
-			}
-			?>
-		</div>
+	<div style="padding:0 100px;">
+		<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Doloréanne" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#2b3175" data-link-color="#2b3175" data-popup-background-color="#fbd63c" data-background-color="#fbd63c" data-display-limit="15" data-link-text-color="#fbd63c"></a>
 	</div>
-
 </div>
