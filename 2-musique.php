@@ -16,96 +16,9 @@
 		</div>
 	</div>
 
-	<!-- EP -->
 	<div class="album-details">
 		<div class="wrapper">
-			<div class="ep album-details-elem">
-				<h3 class="upper bold album-title">Doloréanne - EP</h3>
-
-				<div itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-					<a itemprop="audio" content="https://doloreanne.bandcamp.com/track/marie-2" href="https://doloreanne.bandcamp.com/track/marie-2" target="_BLANK">
-						<span class="col-left" itemprop="name" content="Marie">Marie</span>
-						<meta itemprop="url" content="https://doloreanne.bandcamp.com/track/marie-2">
-						<span class="track-duration col-right" itemprop="duration" content="PT2M30S">2:30</span>
-						<meta itemprop="offers" content="https://doloreanne.bandcamp.com/track/marie-2">
-						<meta itemprop="inAlbum" content="https://doloreanne.bandcamp.com/album/dolor-anne-ep">
-					</a>
-				</div>
-
-				<div itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-					<a itemprop="audio" content="https://doloreanne.bandcamp.com/track/couleurs" href="https://doloreanne.bandcamp.com/track/couleurs" target="_BLANK">
-						<span class="col-left" itemprop="name" content="Couleurs">Couleurs</span>
-						<meta itemprop="url" content="https://doloreanne.bandcamp.com/track/couleurs">
-						<span class="track-duration col-right" itemprop="duration" content="PT2M42S">2:42</span>
-						<meta itemprop="offers" content="https://doloreanne.bandcamp.com/track/couleurs">
-						<meta itemprop="inAlbum" content="https://doloreanne.bandcamp.com/album/dolor-anne-ep">
-					</a>
-				</div>
-
-				<div itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-					<a itemprop="audio" content="https://doloreanne.bandcamp.com/track/dans-ta-t-te" href="https://doloreanne.bandcamp.com/track/dans-ta-t-te" target="_BLANK">
-						<span class="col-left" itemprop="name" content="Dans ta t&ecirc;te">Dans ta tête</span>
-						<meta itemprop="url" content="https://doloreanne.bandcamp.com/track/dans-ta-t-te">
-						<span class="track-duration col-right" itemprop="duration" content="PT3M16S">3:16</span>
-						<meta itemprop="offers" content="https://doloreanne.bandcamp.com/track/dans-ta-t-te">
-						<meta itemprop="inAlbum" content="https://doloreanne.bandcamp.com/album/dolor-anne-ep">
-					</a>
-				</div>
-				<div itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-					<a itemprop="audio" content="https://doloreanne.bandcamp.com/track/emb-tonn-s" href="https://doloreanne.bandcamp.com/track/emb-tonn-s" target="_BLANK">
-						<span class="col-left" itemprop="name" content="Emb&eacute;tonn&eacute;s">Embétonnés</span>
-						<meta itemprop="url" content="https://doloreanne.bandcamp.com/track/emb-tonn-s">
-						<span class="track-duration col-right" itemprop="duration" content="PT3M15S" />3:15</span>
-						<meta itemprop="offers" content="https://doloreanne.bandcamp.com/track/emb-tonn-s">
-						<meta itemprop="inAlbum" content="https://doloreanne.bandcamp.com/album/dolor-anne-ep">
-					</a>
-				</div>
-
-				<div class="credits">
-					<div class="credits-part">
-						<div>
-							<span class="bold col-left">Voix et guitares:</span>
-							<span class="col-right">Émile Brassard-Gourdeau</span>
-						</div>
-						<div>
-							<span class="bold col-left">Voix et guitare électrique:</span>
-							<span class="col-right">Frédéric Maltais</span>
-						</div>
-						<div>
-							<span class="bold col-left">Violon et chœurs:</span>
-							<span class="col-right">Frédérique Tremblay-Auger</span>
-						</div>
-						<div>
-							<span class="bold col-left">Piano et claviers:</span>
-							<span class="col-right">Éloi Brassard-Gourdeau</span>
-						</div>
-						<div>
-							<span class="bold col-left">Basse:</span>
-							<span class="col-right">Alexandre Vézina</span>
-						</div>
-						<div>
-							<span class="bold col-left">Batterie:</span>
-							<span class="col-right">Marc-André Demers</span>
-						</div>
-					</div>
-
-					<div class="credits-part">
-						<div>
-							<span class="bold col-left">Prise de son:</span>
-							<span class="col-right">Alexandre Martel et Doloréanne</span>
-						</div>
-							<span class="bold col-left">Mix et Matriçage:</span>
-							<span class="col-right">Ben Shampouing</span>
-						<div>
-							<span class="bold col-left">Graphisme:</span>
-							<span class="col-right">Frédéric Maltais</span>
-						</div>
-					</div>
-
-					<div class="credits-part paru">Paru le 23 avril 2014</div>
-				</div>
-			</div>
-
+			<!-- Danse encore -->
 			<div class="danseencore album-details-elem">
 				<h3 class="upper bold album-title">Danse encore</h3>
 
@@ -293,6 +206,87 @@
 				</div>
 			</div>
 
+			<!-- Bombe - jusqu'au bout -->
+			<div class="bombejusquaubout album-details-elem">
+				<h3 class="upper bold album-title">Bombe - Jusqu'au bout</h3>
+
+				<div itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<a itemprop="audio" content="https://doloreanne.bandcamp.com/track/bombe" href="https://doloreanne.bandcamp.com/track/bombe" target="_BLANK">
+						<span class="col-left" itemprop="name" content="Bombe">Bombe</span>
+						<meta itemprop="url" content="https://doloreanne.bandcamp.com/track/bombe">
+						<span class="track-duration col-right" itemprop="duration" content="PT4M07S">4:07</span>
+						<meta itemprop="offers" content="https://doloreanne.bandcamp.com/track/bombe">
+						<meta itemprop="inAlbum" content="https://doloreanne.bandcamp.com/album/bombe-jusquau-bout">
+					</a>
+				</div>
+
+				<div itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+					<a itemprop="audio" content="https://doloreanne.bandcamp.com/track/jusquau-bout" href="https://doloreanne.bandcamp.com/track/jusquau-bout" target="_BLANK">
+						<span class="col-left" itemprop="name" content="Jusqu'au bout">Jusqu'au bout</span>
+						<meta itemprop="url" content="https://doloreanne.bandcamp.com/track/jusquau-bout">
+						<span class="track-duration col-right" itemprop="duration" content="PT2M42S">2:42</span>
+						<meta itemprop="offers" content="https://doloreanne.bandcamp.com/track/jusquau-bout">
+						<meta itemprop="inAlbum" content="https://doloreanne.bandcamp.com/album/bombe-jusquau-bout">
+					</a>
+				</div>
+
+				<div class="credits">
+					<div class="credits-part">
+						<div>
+							<span class="bold col-left">Voix et guitares:</span>
+							<span class="col-right">Émile Brassard-Gourdeau</span>
+						</div>
+						<div>
+							<span class="bold col-left">Voix et violons:</span>
+							<span class="col-right">Frédérique Tremblay-Auger</span>
+						</div>
+						<div>
+							<span class="bold col-left">Piano et claviers:</span>
+							<span class="col-right">Éloi Brassard-Gourdeau</span>
+						</div>
+						<div>
+							<span class="bold col-left">Basse:</span>
+							<span class="col-right">Alexandre Vézina</span>
+						</div>
+						<div>
+							<span class="bold col-left">Batterie:</span>
+							<span class="col-right">Olivier Savoie Campeau</span>
+						</div>
+					</div>
+
+					<div class="credits-part">
+						<div>
+							<span class="bold col-left">Prise de son:</span>
+							<span class="col-right">Doloréanne</span>
+						</div>
+						<div>
+							<span class="bold col-left">Mix:</span>
+							<span class="col-right">Patrice Pruneau</span>
+						</div>
+						<div>
+							<span class="bold col-left">Matriçage:</span>
+							<span class="col-right">Phillip Gosselin (Le Lab)</span>
+						</div>
+					</div>
+
+					<div class="credits-part">
+					<div>
+							<span class="bold col-left">Photo:</span>
+							<span class="col-right">Maxime Laurin</span>
+						</div>
+						<div>
+							<span class="bold col-left">Graphisme:</span>
+							<span class="col-right">Doloréanne</span>
+						</div>
+					</div>
+
+					<div class="credits-part paru">
+						<div>Enregistré chez Doloréanne</div>
+						<div>Paru le 30 mars 2018</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 	<div style="clear:both">&nbsp;</div>
@@ -300,20 +294,19 @@
 	<h3 class="sub">Albums</h3>
 	<div class="album-nav-wrapper">
 		<ul class="album-nav">
+			<li id="bombejusquaubout" data-album-id="bombejusquaubout">
+				<img class="cover" src="/img/bombejusquaubout_cover.png" />
+				<div class="overlay-text" data-album-id="bombejusquaubout">
+					<img class="play" src="/img/play-button.svg"></img>
+					<div class="title">Bombe - Jusqu'au bout</div>
+				</div>
+			</li>
 
 			<li id="danseencore" data-album-id="danseencore">
 				<img class="cover" src="/img/danseencore_cover.png" />
 				<div class="overlay-text" data-album-id="danseencore">
 					<img class="play" src="/img/play-button.svg"></img>
 					<div class="title">Danse encore</div>
-				</div>
-			</li>
-
-			<li id="ep" data-album-id="ep">
-				<img class="cover" src="/img/ep_cover.jpg" />
-				<div class="overlay-text" data-album-id="ep">
-					<img class="play" src="/img/play-button.svg"></img>
-					<div class="title" style="color: #3a8881;">Doloréanne - EP</div>
 				</div>
 			</li>
 		</ul>

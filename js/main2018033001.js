@@ -1,6 +1,11 @@
 var _ML_SUBSCRIBE_URL = "/incl/mc.php";
 
 var _MUSIC_PLAYERS = {
+	bombejusquaubout: {
+		url: "https://bandcamp.com/EmbeddedPlayer/album=2784367923/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+		width: "350px",
+		height: "488px"
+	},
 	danseencore: {
 		url: "https://bandcamp.com/EmbeddedPlayer/album=1397447431/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
 		width: "350px",
